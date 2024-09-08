@@ -1,10 +1,10 @@
 import { Spacer } from "@nextui-org/react";
-import { Anta, Inter } from "next/font/google";
+import { Dela_Gothic_One, Hind, Inter } from "next/font/google";
 import Image from "next/image";
 
-const anta = Anta({ weight: "400", subsets: ["latin"] });
+const dela = Dela_Gothic_One({ weight: "400", subsets: ["latin"] });
 
-const inter = Inter({ weight: "400", subsets: ["latin"] });
+const hind = Hind({ weight: "400", subsets: ["latin"] });
 
 import Cat from "../../public/cat-meme.gif";
 import Link from "next/link";
@@ -23,16 +23,18 @@ const About = () => {
             />
           </div>
 
-          <div className="flex flex-col justify-center items-center text-center text-lg">
-            <h1 className={`${anta.className} text-4xl`}>About Me</h1>
+          <Spacer y={10} />
+
+          <div className="flex flex-col justify-center items-center text-justify text-sm md:text-lg">
+            <h1 className={`${dela.className} text-2xl md:text-4xl`}>About Me</h1>
             <Spacer y={3} />
-            <p className={`${inter.className} text-center mr-10 ml-10`}>
+            <p className={`${hind.className} text-center mr-10 ml-10`}>
               Hi, I&apos;m Muhammad
             </p>
 
             <Spacer y={1} />
 
-            <p className=" md:mr-60 md:ml-60">
+            <p className={`${hind.className} md:mr-60 md:ml-60`}>
               A cybersecurity student who&apos;s really into web security and
               cyber deception. I enjoy figuring out how to keep websites safe
               and finding smart ways to outmaneuver online threats.{" "}
@@ -40,7 +42,7 @@ const About = () => {
 
             <Spacer y={1} />
 
-            <p className="md:mr-60 md:ml-60">
+            <p className={`${hind.className} md:mr-60 md:ml-60`}>
               {" "}
               Learning about the latest security techniques and thinking
               creatively about how to protect the digital world is what drives

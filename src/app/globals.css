@@ -2,14 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-color: #242424;
-  color: white;
-}
 
 ::-webkit-scrollbar {
-  height: 5px;
-  width: 5px;
+  height: 0px;
+  width: 0px;
   background: var(--background);
 }
 
@@ -27,7 +23,7 @@ section {
   overflow: hidden; 
   padding-bottom: 2px; 
   cursor: pointer;
-  color: rgb(169, 128, 128);
+  color: rgb(31, 57, 161);
   font-weight: 500;
 }
 

@@ -11,10 +11,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: '#242424',
-        gradient: '#550000'
-      }
+      black: "#000000",
+      blue: "#4169e1",
+      red: "#9B1C31"
     },
   },
   plugins: [nextui()],

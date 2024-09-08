@@ -13,7 +13,7 @@ const AnimatedLink = ({ href, initialText, hoverText, download }) => {
     <a
       href={href}
       download={download}
-      className={`${pixelFont.className} relative inline-block text-xl overflow-hidden group`}
+      className={`${pixelFont.className} relative inline-block text-md md:text-xl overflow-hidden group`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

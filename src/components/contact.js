@@ -1,15 +1,15 @@
-import { Anta } from "next/font/google";
+import { Dela_Gothic_One } from "next/font/google";
 import AnimatedLink from "./animatedLink";
 import { Spacer } from "@nextui-org/react";
 
-const anta = Anta({ weight: "400", subsets: ["latin"] });
+const dela = Dela_Gothic_One({ weight: "400", subsets: ["latin"] });
 const Contact = () => {
   return (
     <section
       id="contact"
       className="flex flex-col justify-center items-center h-screen"
     >
-      <h1 className={`${anta.className} text-4xl`}>Contact Me</h1>
+      <h1 className={`${dela.className} text-2xl md:text-4xl`}>Contact Me</h1>
 
       <Spacer y={5} />
 
