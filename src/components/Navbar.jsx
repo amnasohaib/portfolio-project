@@ -29,7 +29,7 @@ const Navbar = () => {
         </button>
       </div>
 
-      <span className="text-[14px] md:text-[16px] space-x-1 md:space-x-10">
+      <span className="text-[12px] md:text-[16px]  md:space-x-10">
         <Link href="#home">
           <button className="uppercase px-2 hover-underline-animation px-4 py-1">
             Home
